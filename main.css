@@ -1,7 +1,6 @@
 .logo {
 	position: relative;
 	float: right;
-	display: inline-block;
 }
 
 .logo img {
@@ -11,6 +10,14 @@
 	margin-top: 0px;
 }
 
+.img-responsive{
+	float: right;
+	max-width: 10%;
+	position: relative;
+}
+.page-header{
+	height: 100px;
+}
 .col-lg-4 {
 	margin: 1.5em;
 	width: 300px;
