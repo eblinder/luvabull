@@ -1,0 +1,55 @@
+.logo {
+	position: relative;
+	float: right;
+	display: inline-block;
+}
+
+.logo img {
+	max-width: 180px;
+	max-height: 180px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+}
+
+.col-lg-4 {
+	margin: 1.5em;
+	width: 300px;
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: .75em;
+}
+.col-lg-4 p {
+	/*text-shadow: white;*/
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 2em;
+	font-family: Impact;
+	font-weight: bold;
+	width: auto;
+	padding: .25em;
+	display:inline-block;
+}
+
+#linda {
+	background-image: url(DOGGIEZ/linda.png);
+}
+
+#luke {
+	background-image: url(DOGGIEZ/luke.png);
+}
+
+#ray {
+	background-image: url(DOGGIEZ/ray.png);
+}
+
+#skippy {
+	background-image: url(DOGGIEZ/skippy.png);
+}
+
+#maggie {
+	background-image: url(DOGGIEZ/maggie.png);
+}
+
+#tony {
+	background-image: url(DOGGIEZ/tony.png);
+}

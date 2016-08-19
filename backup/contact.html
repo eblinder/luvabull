@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html>
+
+      <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X_UA_Compatible" content="chrome=1, IE-edge">
+        <title>Luv A Bull Rescue</title>
+        <link rel="stylesheet" href="main.css" />
+      </head>
+      <body>
+        <div id="wrapper">
+            <header>
+              <h1>Luv A Bull Rescue</h1>
+              <h2>Life is Better With a Pit Bull Terrier</h2>
+            </header>
+            <div class="nav">
+            	<ul>
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="adopt.html">Adopt</a></li>
+                <li class="nav-item"><a href="about.html">About</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+                <!-- <li class="nav-item"><a href="index.html">Login</a></li> -->
+                <style>
+                  .dropdown {
+                  position: relative;
+                  display: inline-block;
+                }
+
+                  .dropdown-content {
+                  display: none;
+                  position: absolute;
+                  background-color: #333;
+                  min-width: 160px;
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  padding: 12px 16px;
+                  z-index: 1;
+                }
+
+                  .dropdown:hover .dropdown-content {
+                  display: block;
+                }
+                </style>
+
+                <div class="dropdown">
+                  <span>Registration</span>
+                  <div class="dropdown-content">
+                    <form action="reg.php">
+                      First name:<br>
+                      <input type="text" name="firstname"><br>
+                      Last name:<br>
+                      <input type="text" name="lastname">
+                      Username:<br>
+                      <input type="text" name="username">
+                      Password:<br>
+                      <input type="text" name="password">
+                      <br />
+                      <input type="submit" value="Submit">
+                    </form>
+                </div>
+            	</ul>
+             </div>
+             <p>
+               Need to talk to us? Call (123)456-7890 or email us at luvabull@gmail.com
+             </p>
+        </div>
+      </body>
+    </html>

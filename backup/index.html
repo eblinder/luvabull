@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LuvABull Rescue</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+ <div class="container">
+   <div class="header">
+    <h1>LuvABull Rescue</h1>
+    <h3>Life is Better With a Pitbull Terrier!</h3>
+  <div class="nav">
+  	<ul>
+      <li class="nav-item"><a href="index.html">Home</a></li>
+      <li class="nav-item"><a href="adopt.html">Adopt</a></li>
+      <li class="nav-item"><a href="about.html">About</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <style>
+            .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+          }
+
+            .dropdown:hover .dropdown-content {
+            display: block;
+          }
+          </style>
+
+          <div class="dropdown nav-item">
+            <a href="#">Registration</a>
+            <div class="dropdown-content">
+              <form action="reg.php">
+                First name:<br>
+                <input type="text" name="firstname"><br>
+                Last name:<br>
+                <input type="text" name="lastname">
+                Username:<br>
+                <input type="text" name="username">
+                Password:<br>
+                <input type="text" name="password">
+                <br />
+                <input type="submit" value="Submit">
+              </form>
+          </div>
+        </div>
+  	</ul>
+   </div>
+<div class="main">
+  <h2>Events</h2>
+  <p>Find your newest family member at our next adoption event! This Saturday at <a href="http://stores.petsmart.com/441">Fairlakes Petsmart</a> from 12p to 4p.
+    <!-- <img src="/home/erica/Pictures/luvabullflyer.jpg" alt="flyer" style="width:128px;height:128px;"> -->
+   </div>
+  </div>
+  	<p id="footer">&copy; By Erica Blinder 2016</p>
+</body>
+</html>
